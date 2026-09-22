@@ -1,0 +1,17 @@
+{
+  "name": "Тренер — мой Dashboard",
+  "short_name": "Тренер",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7fbff",
+  "theme_color": "#f7fbff",
+  "icons": [
+    {
+      "src": "trainer-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
