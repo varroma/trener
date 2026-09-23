@@ -8,10 +8,10 @@
   "theme_color": "#f7fbff",
   "icons": [
     {
-      "src": "trainer-icon.jpg",
+      "src": "trainer-icon-v2.jpg",
       "sizes": "128x128",
       "type": "image/jpeg",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
