@@ -496,6 +496,29 @@ a{color:var(--blue)}::selection{background:#DDEEFF;color:var(--txt)}
 .protein-bar-note{margin-top:12px;padding-top:10px;border-top:1px solid #e1e8ef;font-size:13px;line-height:1.4;color:#52677a}
 .protein-bar-note b{color:#102033}
 @media(max-width:600px){.protein-bar-row{grid-template-columns:92px 1fr 78px}.protein-bar-label{font-size:12px}.protein-bar-value{display:block;text-align:right}.protein-bar-value span{display:block}}
+</style><style id="main-section-title-scale">
+#readiness>h2,
+#recovery>h2,
+#sleep>h2,
+#nutrition>.section-head>div>h2,
+#bodycomp>h2,
+#strength #strength-title,
+#measurements>.section-head>div>h2,
+#trainer-report>h2{
+  font-size:24.2px;
+}
+@media(max-width:600px){
+  #readiness>h2,
+  #recovery>h2,
+  #sleep>h2,
+  #nutrition>.section-head>div>h2,
+  #bodycomp>h2,
+  #strength #strength-title,
+  #measurements>.section-head>div>h2,
+  #trainer-report>h2{
+    font-size:19.8px;
+  }
+}
 </style></head><body><script>if(sessionStorage.getItem('trainer_access')!=='1'&&new URLSearchParams(location.search).get('preview')!=='1')location.replace('index.html')</script><div class="wrap"><div class="head"><div><div><h1>TRAINING CONTROL</h1><div class="mut" style="font-size:15px;margin-top:2px">персональный центр спортивной формы</div></div></div><div class="head-actions"><div class="date-nav" id="date-nav"><button class="date-nav-btn" id="date-prev" type="button" aria-label="Предыдущий день">‹</button><button class="date-pill" id="date-pill" type="button" aria-label="Выбрать дату"><span class="date-pill-icon">🗓️</span><span id="date-pill-label">26 сентября 2026</span><span class="date-pill-arrow">⌄</span></button><button class="date-nav-btn" id="date-next" type="button" aria-label="Следующий день">›</button><div class="date-menu" id="date-menu"><button type="button" data-date="2026-09-26">26 сентября 2026 <small>сегодня</small></button><button type="button" data-date="2026-09-25">25 сентября 2026</button></div></div><button class="mobile-menu-btn" id="mobile-menu-btn" type="button" aria-label="Открыть меню" aria-expanded="false">☰</button></div><nav class="mobile-menu" id="mobile-menu" aria-label="Навигация по разделам"><a href="#overview">Обзор</a><a href="#readiness">Готовность</a><a href="#recovery">Recovery</a><a href="#sleep">Сон</a><a href="#nutrition">Питание</a><a href="#bodycomp">Вес и состав</a><a href="#strength">Силовая динамика</a><a href="#measurements">Замеры</a><a href="#trainer-report">Отчёт тренера</a></nav></div><div class="history-day-view" id="history-day-view">
   <div class="history-banner"><div><b id="history-title">Состояние на конец дня</b><div class="mut">Исторический срез из Master и доступных источников на выбранную дату.</div></div><button class="report-open-btn" id="history-back-today" type="button">Вернуться к 26.09</button></div>
   <div class="history-grid">
