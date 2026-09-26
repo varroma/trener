@@ -272,6 +272,28 @@ a{color:var(--blue)}::selection{background:#DDEEFF;color:var(--txt)}
   border-left-color:#F04452 !important;
 }
 
+
+@media(max-width:600px){
+  /* Floating mobile navigation: keep menu control visible while scrolling */
+  .mobile-menu-btn{
+    position:fixed;
+    top:12px;
+    right:12px;
+    z-index:1002;
+  }
+  .mobile-menu{
+    position:fixed;
+    top:64px;
+    left:10px;
+    right:10px;
+    width:auto;
+    z-index:1001;
+    max-height:calc(100vh - 76px);
+    overflow-y:auto;
+    margin-top:0;
+  }
+}
+
 @media(max-width:600px){
   .head{
     gap:10px;
