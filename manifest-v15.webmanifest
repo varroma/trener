@@ -1,0 +1,30 @@
+{
+  "id": "/trener/dashboard-v15.html",
+  "name": "Тренер — мой Dashboard",
+  "short_name": "Тренер",
+  "start_url": "/trener/dashboard-v15.html?source=pwa-v17",
+  "scope": "/trener/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/trener/trainer-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/trener/trainer-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/trener/trainer-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
