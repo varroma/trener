@@ -480,9 +480,9 @@ a{color:var(--blue)}::selection{background:#DDEEFF;color:var(--txt)}
 .energy-balance-note b{color:#102033}
 @media(max-width:700px){
   .energy-balance-box{position:static;margin-top:12px}
-  .energy-balance-grid{grid-template-columns:1fr}
-  .energy-balance-grid>div{border-right:0;border-bottom:1px solid #e1e8ef;padding:0 0 8px}
-  .energy-balance-grid>div:last-child{border-bottom:0}
+  .energy-balance-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 12px}
+  .energy-balance-grid>div{border-right:0;border-bottom:1px solid #e1e8ef;padding:0 0 8px;min-width:0}
+  .energy-balance-grid>div:nth-last-child(-n+2){border-bottom:0;padding-bottom:0}
 }
 </style><style id="protein-chart-style">
 .protein-bars{display:flex;flex-direction:column;gap:10px;margin-top:2px}
